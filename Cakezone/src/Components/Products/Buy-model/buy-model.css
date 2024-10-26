@@ -1,0 +1,45 @@
+
+
+.buy-model{
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-self: center;
+    padding: 10px;
+    display: none;
+    transition: .9s;
+}
+
+.btn-group{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(105, 105, 105);
+    border-radius: 0;
+
+}
+
+.btn-group .btn{
+    background-color: #aaaaaa;
+ 
+}
+.btn-group .btn:hover{
+    background-color: var(--primary);
+}
+.buy-btn{
+    background-color: var(--primary)  !important;
+    color: white !important;
+}
+.buy-btn:hover{
+    background-color: #fac88f !important;
+    color: var(--dark) !important
+    ;
+}
