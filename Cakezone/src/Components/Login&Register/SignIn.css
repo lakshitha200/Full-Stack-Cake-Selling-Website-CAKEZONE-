@@ -5,17 +5,16 @@
     --dark: #2B2825;
 
 }
+
 .font-secondary {
     font-family: 'Pacifico', cursive;
 }
 .square-fonts{
     font-family: 'Oswald', sans-serif;
 }
-.container-fluid{
-    background-color: var(--secondary);
+form{
+    width: 80%;
 }
-
-
 
 .section-title h2{
     color: var(--primary);
